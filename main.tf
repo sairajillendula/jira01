@@ -25,5 +25,6 @@ resource "aws_instance" "example_instance" {
 
   tags = {
     Name = "MyEC2Instance"
+    id = 2
   }
 }
